@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/back2"
+    tools:context=".SignupActivity">
+    <TextView
+        android:id="@+id/Sign_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tusj"
+        android:text="Sign Up"
+        android:textColor="#ffffff"
+        android:textSize="35dp" />
+
+
+    <EditText
+        android:id="@+id/sgn_et_usrid"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Sign_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#7FFF"
+        android:hint="Enter User Name"
+        android:textColor="#8FFF"
+        android:textColorHint="#7FFF"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/sgn_et_pass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sgn_et_usrid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#7FFF"
+        android:hint="Enter Password"
+        android:textColor="#8FFF"
+        android:textColorHint="#7FFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/sgn_et_pass_conf"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sgn_et_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#7FFF"
+        android:hint="Confirm Password"
+        android:textColor="#8FFF"
+        android:textColorHint="#7FFF"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/sgn_btn_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sgn_et_pass_conf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="SIGN UP" />
+
+
+</RelativeLayout>

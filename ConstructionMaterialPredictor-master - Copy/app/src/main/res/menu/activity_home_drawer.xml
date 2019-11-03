@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Operations">
+        <menu>
+            <item
+                android:id="@+id/nav_goto_ip"
+                android:icon="@drawable/ic_input"
+                android:title="Change Input" />
+            <item
+                android:id="@+id/nav_first_layout"
+                android:icon="@drawable/ic_op"
+                android:title="Calculate Concrete" />
+            <item
+                android:id="@+id/nav_second_layout"
+                android:icon="@drawable/ic_op"
+                android:title="Calculate Bricks" />
+            <item
+                android:id="@+id/nav_third_layout"
+                android:icon="@drawable/ic_op"
+                android:title="Calculate Excavation" />
+            <item
+                android:id="@+id/nav_fourth_layout"
+                android:icon="@drawable/ic_op"
+                android:title="Calculate Steel" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_log_out"
+                android:title="Log Out" />
+            </menu>
+    </item>
+
+</menu>

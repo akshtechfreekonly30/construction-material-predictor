@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/back2"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tusj"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textSize="35dp" />
+
+
+    <EditText
+        android:id="@+id/lgn_et_usrid"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#7FFF"
+        android:hint="Enter User ID"
+        android:textColor="#8FFF"
+        android:textColorHint="#7FFF"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:id="@+id/lgn_et_pass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lgn_et_usrid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#7FFF"
+        android:hint="Enter Password"
+        android:textColor="#8FFF"
+        android:textColorHint="#7FFF"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/lgn_btn_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lgn_et_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/lgn_tv_newusr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lgn_btn_Login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="@string/my_text"
+        android:textColor="#3cd3c7"
+        android:textSize="18dp"
+        android:selectAllOnFocus="false"
+        android:linksClickable="true"
+        android:autoLink="all"
+        />
+
+
+</RelativeLayout>
